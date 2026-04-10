@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #124f49;
+  --bg-deep: #103f3b;
+  --bg-surface: rgba(255, 255, 255, 0.06);
+  --text-primary: #f2e6cf;
+  --text-secondary: rgba(242, 230, 207, 0.82);
+  --accent-gold: #d8b45c;
+  --accent-cta: #d8563f;
+  --accent-cta-hover: #bf4a35;
+  --border-soft: rgba(242, 230, 207, 0.14);
+
+  --section-hero: linear-gradient(180deg, #165f58 0%, #124f49 100%);
+  --section-featured: linear-gradient(180deg, #124f49 0%, #114944 100%);
+  --section-menu: linear-gradient(180deg, #1c6760 0%, #14524c 100%);
+  --section-signature: linear-gradient(180deg, #14524c 0%, #11443f 100%);
+  --section-catering: linear-gradient(180deg, #1a625b 0%, #124a45 100%);
+  --section-about: linear-gradient(180deg, #124a45 0%, #103f3b 100%);
+  --section-reviews: linear-gradient(180deg, #195c56 0%, #114944 100%);
+  --section-contact: linear-gradient(180deg, #114944 0%, #103f3b 100%);
+
+  --font-display: "Baloo 2", system-ui, sans-serif;
+  --font-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 18px;
+  background: var(--bg-main);
+  color: var(--text-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.section-hero {
+  background: var(--section-hero);
+}
+
+.section-featured {
+  background: var(--section-featured);
+}
+
+.section-menu {
+  background: var(--section-menu);
+}
+
+.section-signature {
+  background: var(--section-signature);
+}
+
+.section-catering {
+  background: var(--section-catering);
+}
+
+.section-about {
+  background: var(--section-about);
+}
+
+.section-reviews {
+  background: var(--section-reviews);
+}
+
+.section-contact {
+  background: var(--section-contact);
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+/* responsive contact */
+@media (max-width: 980px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-map {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-section {
+    padding: 4.5rem 0;
+  }
+
+  .contact-card {
+    padding: 1.4rem;
+  }
+
+  .contact-map {
+    min-height: 320px;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--accent-cta);
+  color: white;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  background: var(--accent-cta-hover);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  border: 1px solid rgba(247, 236, 214, 0.25);
+  color: var(--cream);
+  background: transparent;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+

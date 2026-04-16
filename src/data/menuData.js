@@ -1,6 +1,6 @@
 import roti from "../assets/menu-roti.jpg";
-import nasi from "../assets/menu-char-kway-teow.jpg";
-import mee from "../assets/menu-mee-goreng.jpg";
+import nasi from "../assets/menu-nasi.jpg";
+import mee from "../assets/menu-mee-goreng.jpeg";
 
 export const menuCategories = [
   {
@@ -10,21 +10,21 @@ export const menuCategories = [
     items: [
       {
         id: 1,
-        name: "Roti Canai",
-        description: "Crispy, flaky flatbread served fresh with warm curry.",
+        name: "Vegetarian Roti Carry",
+        description: "Golden roti paired with chunky broccoli, cauliflower and capsicum curry.",
         price: "$9.90",
       },
       {
         id: 2,
-        name: "Roti Boom",
-        description: "A softer, sweeter roti with a richer finish.",
+        name: "Roti Beef Curry",
+        description: "Flaky pan-fried roti served with tender beef chunks in rich, flavourful curry",
         price: "$11.90",
       },
       {
         id: 3,
-        name: "Roti Telur",
-        description: "Classic roti folded with egg for extra savoury comfort.",
-        price: "$12.90",
+        name: "Chicken Roti Curry",
+        description: "Crispy layered roti served alongside slow-cooked chicken in a warm, rich, golden curry",
+        price: "$10.90",
       },
     ],
   },
@@ -35,21 +35,21 @@ export const menuCategories = [
     items: [
       {
         id: 4,
-        name: "Nasi Lemak",
-        description: "Fragrant coconut rice, sambal, peanuts, anchovies, and egg.",
+        name: "Nasi Combination",
+        description: "Wok-fried rice with juicy prawns, tender chicken, peas, served with fresh tomato and cucumber.",
         price: "$16.90",
       },
       {
         id: 5,
-        name: "Nasi Goreng",
-        description: "Wok-fried rice packed with savoury depth and spice.",
-        price: "$17.90",
+        name: "Nasi Beef",
+        description: "Wok-fried rice packed with savoury depth and spice beef.",
+        price: "$15.90",
       },
       {
         id: 6,
-        name: "Nasi Ayam",
-        description: "Comforting chicken rice dish with rich flavour and balance.",
-        price: "$18.90",
+        name: "Nasi Seafood",
+        description: "Comforting seafood rice dish with rich flavour and balance.",
+        price: "$16.90",
       },
     ],
   },
@@ -66,15 +66,15 @@ export const menuCategories = [
       },
       {
         id: 8,
-        name: "Char Kway Teow",
+        name: "Fried Keow Tiao",
         description: "Smoky stir-fried noodles with deep savoury character.",
-        price: "$18.90",
+        price: "$17.90",
       },
       {
         id: 9,
-        name: "Mee Soup",
-        description: "A warming noodle bowl with rich broth and comforting finish.",
-        price: "$16.90",
+        name: "Char Hor Fun",
+        description: "Rich, saucy flat noodles packed with juicy chicken, mushroom and bok choy.",
+        price: "$17.90",
       },
     ],
   },

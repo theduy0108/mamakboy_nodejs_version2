@@ -18,11 +18,11 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border-soft)] bg-[var(--bg-main)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#" className="text-xl font-extrabold tracking-wide md:text-2xl">
+        <a href="#" className="brand-name">
           Mamakboy
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="nav-links hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
             <a
               key={link.label}

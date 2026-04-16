@@ -4,7 +4,7 @@ import CTAButton from "./CTAButton";
 import { motion } from "framer-motion";
 import officeImg from "../assets/office.jpg";
 import partyImg from "../assets/party.jpg";
-import familyImg from "../assets/family.jpg";
+import familyImg from "../assets/family_catering_editted.jpg";
 
 function CateringSection() {
   const packages = [
@@ -43,7 +43,7 @@ function CateringSection() {
         <SectionHeading
           eyebrow="Catering"
           title="Catering menus & pricing for events, parties, and office lunches."
-          description="This section should feel polished, premium, and easy to scan, with room to expand package options later."
+          description="From intimate gatherings to large celebrations, our catering packages are designed to bring the authentic taste of Malaysian street food to your event with ease and style."
         />
 
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">

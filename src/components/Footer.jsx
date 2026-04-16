@@ -1,12 +1,20 @@
 function Footer() {
   return (
-    <footer className="border-t border-[var(--border-soft)] py-8">
-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 text-sm text-[var(--text-secondary)] sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-        <p className="font-semibold text-[var(--text-primary)]">Mamakboy</p>
-        <p>© 2026 Mamakboy. All rights reserved.</p>
+    <footer className="site-footer minimal-footer">
+      <div className="container minimal-footer-grid">
+        <div className="minimal-footer-left">
+          <h2 className="minimal-footer-brand font-display">Mamakboy</h2>
+
+          <div className="minimal-footer-contact">
+            <p>Shop 88, 14/38 Rundle Mall, Adelaide SA 5000</p>
+            <p>(08) 7080 6816</p>
+            <p>mamakboy_adelaide@outlook.com</p>
+            <p>© 2026 Mamakboy. All rights reserved.</p>
+          </div>
+        </div>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

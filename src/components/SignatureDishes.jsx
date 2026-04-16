@@ -1,16 +1,16 @@
 import SectionHeading from "./SectionHeading";
-import rotiImg from "../assets/roti_signature.jpg";
-import nasiImg from "../assets/nasi_signature.jpg";
-import meeImg from "../assets/migoreeng_signature.jpg";
+import hainanse from "../assets/hainanese-signature.jpg";
+import soto from "../assets/soto_beef_noodle.jpg";
+import charhor from "../assets/char_hor_fun.jpeg";
 import { motion } from "framer-motion";
 
 
 
 function SignatureDishes() {
   const dishes = [
-    { id: 1, name: "Roti Canai", tag: "Best Seller", image: rotiImg },
-    { id: 2, name: "Nasi Lemak", tag: "Popular", image: nasiImg },
-    { id: 3, name: "Mee Goreng", tag: "Chef Pick", image: meeImg },
+    { id: 1, name: "Hainanese Chicken Rice", tag: "Best Seller", image: hainanse },
+    { id: 2, name: "Soto Beef Noodle Soup", tag: "Popular", image: soto },
+    { id: 3, name: "Char Hor Fun", tag: "Chef Pick", image: charhor },
   ];
 
   return (
@@ -24,8 +24,8 @@ function SignatureDishes() {
 >
         <SectionHeading
           eyebrow="Signature Dishes"
-          title="The plates people come back."
-          description="Use this section to feature the most recognisable and highest-converting dishes with stronger imagery."
+          title="The plates that you will love."
+          description="Made fresh daily, cooked with care, and loved by everyone who tries them. Order once and you will understand why they never leave our menu."
         />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -34,8 +34,8 @@ function SignatureDishes() {
               key={dish.id}
               className="rounded-[1.5rem] border border-[var(--border-soft)] bg-white/5 p-5"
             >
-              <div className="mb-4 aspect-[4/5] rounded-[1.25rem] bg-[var(--bg-deep)] flex items-center justify-center text-[var(--text-secondary)]">
-                <div className="mb-4 aspect-[4/5] overflow-hidden rounded-[1.25rem]">
+              <div className="mb-4 overflow-hidden rounded-[1.25rem] signature-card-image-wrap">
+                <div className="w-full object-cover transition duration-500 hover:scale-105 ignature-card-image">
                   <img
                     src={dish.image}
                     alt={dish.name}

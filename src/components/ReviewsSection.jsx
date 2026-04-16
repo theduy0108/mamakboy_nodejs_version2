@@ -14,7 +14,6 @@ function ReviewsSection() {
         <SectionHeading
           eyebrow="Reviews"
           title="Loved for flavour, warmth, and casual premium dining."
-          description="A simple review section with clean cards and enough personality to support trust."
           align="center"
         />
 

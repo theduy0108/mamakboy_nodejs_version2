@@ -24,7 +24,7 @@ function MenuSection() {
           <SectionHeading
             eyebrow="Menu"
             title="Street food favourites, built to feel bold and easy to browse."
-            description="A cleaner premium menu layout with stronger typography, category switching, and a more editorial rhythm."
+            description="Real food. Real flavour. Made fresh daily with fresh ingredients and bold flavours coming straight from our kitchen to your plate."
           />
 
           <div className="mt-6 flex flex-wrap gap-3">
@@ -50,7 +50,7 @@ function MenuSection() {
         </div>
 
         <a
-          href="/NORWOOD Brunch menu 2024.pdf"
+          href="/Mamakboy_Menu.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="font-display shrink-0 rounded-full bg-[var(--accent-cta)] px-6 py-3 text-lg font-extrabold text-[var(--text-primary)]"

@@ -16,10 +16,6 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.65 }}
         >
-          <span className="mb-4 inline-block rounded-full border border-[var(--border-soft)] px-4 py-2 text-xs font-semibold text-[var(--text-primary)]">
-            Serving up bold flavours fresh daily
-          </span>
-
           <h1 className="font-display max-w-2xl text-[4.2rem] leading-[0.9] font-extrabold tracking-[-0.02em] sm:text-[5.2rem] lg:text-[6rem]">
                     Mamakboy brings 
                     <br />
@@ -30,7 +26,7 @@ function Hero() {
 
           <p className="mt-6 max-w-xl text-base leading-7 text-[var(--text-secondary)] md:text-lg">
             Mamakboy brings a bold editorial food experience into a warm Malaysian
-            street-food brand — rich dishes, strong visuals, and a menu built to be
+            street-food brand with rich dishes, strong visuals, and a menu built to be
             shared.
           </p>
 

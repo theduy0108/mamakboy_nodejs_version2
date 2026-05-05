@@ -23,7 +23,7 @@ function ContactSection() {
               <p>
                 <span className="font-semibold text-[var(--text-primary)]">Address:</span>{" "}
                  <br /> 38 Rundle Mall, Adelaide SA 5000
-                 <br /> Located in Rundle Mall (near Myer Centre)
+                 <br /> Located on Lower floor of Rundle Mall (inside Myer Centre)
                     
               </p>
               <p>
@@ -36,8 +36,8 @@ function ContactSection() {
               </p>
               <p>
                 <span className="font-semibold text-[var(--text-primary)]">Hours:</span>{" "}
-                <br /> Monday – Thurday: 11:00 AM – 9:30 PM
-                <br /> Friday – Sunday: 11:00 AM – 11:00 PM
+                <br /> Monday – Sunday: 10:00 AM – 4:00 PM
+                <br /> Friday:          10:00 AM – 8:00 PM
               </p>
             </div>
 
